@@ -1,0 +1,20 @@
+/* Hide blue links in the User list */
+
+#user-list ul { 
+		list-style: none;
+}
+#user-list ul, ul.normalized { 
+		font-size: 1rem !important;
+		line-height: inherit;
+}
+ul.normalized li {
+		margin-bottom: .5rem;
+} 
+#user-list li > a:not(.new), #user-list a:not(.new) ~ * { 
+		display: none !important 
+}
+#user-list li > a.new::before {
+		content: '\f249';
+		margin-right: 1rem;
+}
+[[Category:Review accounts package]]
