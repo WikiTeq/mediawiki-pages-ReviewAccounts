@@ -13,5 +13,5 @@ A tool to review accounts based on the userpage properties.
 * Run php extensions/PagePort/maintenance/importPages.php --source ~/mediawiki-pages-ReviewAccounts
 
 ## via PageExchange
-* Add the following line to your LocalSettings.php $wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/WikiTeq/mediawiki-pages-ReviewAccounts/master/page-exchange.json';
+* Add the following line to your LocalSettings.php `$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/WikiTeq/mediawiki-pages-ReviewAccounts/master/page-exchange.json';`
 * Navigate to Special:Packages and install the package
