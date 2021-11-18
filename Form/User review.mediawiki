@@ -1,0 +1,8 @@
+<noinclude>[[Category:Review accounts package]]</noinclude><includeonly>
+{{{info|partial form}}}
+{{{for template|User review}}}
+Reviewed:
+{{{field|Reviewed}}}
+{{{end template}}}
+{{{standard input|save}}} {{{standard input|cancel}}}
+</includeonly>
