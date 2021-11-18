@@ -1,0 +1,2 @@
+{{#set:Is reviewed={{{Reviewed|}}}}}
+<noinclude>[[Category:Review accounts package]]</noinclude>
