@@ -1,0 +1,60 @@
+{
+    "publisher": "WikiTeq",
+    "author": "WikiTeq",
+    "language": "en",
+    "url": "https:\/\/github.com\/WikiTeq\/mediawiki-pages-ReviewAccounts",
+    "packages": {
+        "Review Accounts": {
+            "globalID": "1637254228",
+            "description": "",
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "User review",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-ReviewAccounts\/master\/Form%2FUser_review.mediawiki"
+                },
+                {
+                    "name": "Review accounts",
+                    "namespace": "NS_HELP",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-ReviewAccounts\/master\/Help%2FReview_accounts.mediawiki"
+                },
+                {
+                    "name": "Review accounts",
+                    "namespace": "NS_PROJECT",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-ReviewAccounts\/master\/Project%2FReview_accounts.mediawiki"
+                },
+                {
+                    "name": "Review accounts.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-ReviewAccounts\/master\/MediaWiki%2FReview_accounts.css.mediawiki"
+                },
+                {
+                    "name": "Is promotable",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-ReviewAccounts\/master\/Property%2FIs_promotable.mediawiki"
+                },
+                {
+                    "name": "Is reviewed",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-ReviewAccounts\/master\/Property%2FIs_reviewed.mediawiki"
+                },
+                {
+                    "name": "User review",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-ReviewAccounts\/master\/Template%2FUser_review.mediawiki"
+                },
+                {
+                    "name": "Welcome",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-ReviewAccounts\/master\/Template%2FWelcome.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+								"SemanticMediaWiki",
+								"PageForms"            
+            ]
+        }
+    }
+}
+
