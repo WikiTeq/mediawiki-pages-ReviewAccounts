@@ -1,0 +1,61 @@
+== Accounts awaiting review ==
+The following is a list of accounts that have a User page filled out, but have not yet been reviewed. Once you have taken all appropriate actions for a user, click the "Mark reviewed" link.
+<ul class="normalized">
+{{#arraymap:{{#ask:
+	[[User:+]]
+	|link=none
+	|searchlabel=
+	|limit=5000
+	|sep=;
+ }}
+	|;
+	|@@@
+	|{{#ifeq:{{#show:@@@|?Is reviewed}}|true|<!-- User has been reviewed. Do nothing. -->|<li> [[@@@]] {{#autoedit:form=User review
+		|target=@@@
+		|link text=<span class="badge badge-success font-weight-normal">Mark reviewed</span>
+		|summary=Reviewed account
+		|query string=User review[Reviewed]=Yes
+		|reload
+	}}<!--
+
+-->{{#ifeq:{{#show:@@@|?Is promotable}}
+		|true
+		|<div class="small">This user appears to be eligible for promotion: [[Special:UserRights/{{PAGENAME:@@@}}|Click here to change this user's rights.]]</div>
+	}}<!--
+
+--><div class="small">Reject: [[Special:Block/@@@|Block this account]] {{!}} [{{fullurl:@@@|action=delete}} Delete user page]</div></li>}}
+	|\n
+}}
+</ul>
+
+== Reviewed users ==
+This is a list of users who have already been reviewed. Click on the "Unreview" link in order to reset their status. Once you refresh the page, the user will be added to the "Accounts awaiting review" section above.
+<ul class="normalized">
+{{#arraymap:{{#ask:
+	[[User:+]]
+	[[Is reviewed::true]]
+	|link=none
+	|searchlabel=
+	|limit=5000
+	|sep=;
+ }}
+	|;
+	|@@@
+	|<li> [[@@@]] {{#autoedit:form=User review
+		|target=@@@
+		|link text=<span class="badge badge-secondary font-weight-normal">Unreview</span>
+		|summary=Unreviewed account
+		|query string=User review[Reviewed]=No
+		|reload
+	}}</li>
+	|\n
+}}
+</ul>
+
+== Blank user pages ==
+This is a list of users who have created accounts but have not yet filled in their User page, with the newest users listed first:
+<div id="user-list">
+{{Special:ListUsers|creationSort=1|desc=1|limit=5000}}
+</div>
+
+<noinclude>[[Category:Review accounts package]]</noinclude>
