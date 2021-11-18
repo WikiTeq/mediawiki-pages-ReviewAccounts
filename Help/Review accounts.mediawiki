@@ -1,0 +1,16 @@
+== Account Privileges ==
+=== Users ===
+Anyone can create an account. However, users in the default Users group can only edit their own User page.
+
+=== Editors ===
+Users who have filled out their User page in a way that indicates that they are candidates for promotion, are added to the Editors group by an administrator. Users in the Editors group have the ability to edit or create pages.
+
+== Account review ==
+To review and promote/block accounts, click [[Project:{{PAGENAME}}|here]]. That page lists all users who have not yet been reviewed. Review them by clicking the "Mark reviewed" link. The page will also display a special Rights link for users who have filled out their User page in a way that indicates that they are promotion-ready. Clicking this link will bring you to a page where you can add this user to the Editors group. If the data seems out of date, click [{{fullurl:Project:Review_accounts|action=purge}} this link] to refresh the data. For users who should not have an account, the page provides helpful links to block them and delete their User page. Always click "Mark reviewed" when done.
+
+That page also has a list of users who have already been reviewed. Click the Unreview link in order to reset their status and decide what actions should be taken for their account. It also provides a list of users who have not yet filled out their User page.
+
+== Welcome message  ==
+Once a user creates an account, the system posts a message to their Talk page, welcoming them and requesting that they fill out their User page. To see the template which contains the Welcome message, click [[Template:Welcome|here.]] Edit that page to change the message. Note that any customizations will be overwritten if the package is updated in the future.
+
+<noinclude>[[Category:Review accounts package]]</noinclude>
