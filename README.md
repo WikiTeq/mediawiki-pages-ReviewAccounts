@@ -1,4 +1,5 @@
 # mediawiki-pages-ReviewAccounts
+A tool to review accounts based on the userpage properties.
 
 # Requirements
 * PageForms
