@@ -1,0 +1,7 @@
+== Welcome to {{SITENAME}} ==
+Hello {{{name}}} and thank you for creating an account. Your account has not yet been reviewed. 
+You will not be able to edit any {{SITENAME}} pages until an administrator has reviewed and promoted your account. If you need further assistance, you can contact an administrator.
+ 
+{{#formredlink:form=|link text=In order to begin the account reviewal process, you will need to fill out your user page by clicking here|target=User:{{{name}}}|existing page link text=Thank you for filling out your User page}}.
+
+<noinclude>[[Category:Review accounts package]]</noinclude>
