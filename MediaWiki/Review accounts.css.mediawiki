@@ -16,5 +16,7 @@ ul.normalized li {
 #user-list li > a.new::before {
 		content: '\f249';
 		margin-right: 1rem;
+		font-family: 'Font Awesome 5 Free';
+                font-weight: bold;
 }
 [[Category:Review accounts package]]
