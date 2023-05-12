@@ -5,7 +5,7 @@
     "url": "https:\/\/github.com\/WikiTeq\/mediawiki-pages-ReviewAccounts",
     "packages": {
         "Review Accounts": {
-            "globalID": "1637254228",
+            "globalID": "com.wikiteq.ReviewAccounts",
             "description": "",
             "version": "0.1",
             "pages": [
