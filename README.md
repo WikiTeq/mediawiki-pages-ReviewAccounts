@@ -4,6 +4,7 @@ A tool to review accounts based on the userpage properties.
 # Requirements
 * PageForms
 * SemanticMediaWiki
+* ParserFunctions (with `$wgPFEnableStringFunctions = true` for template sanitization)
 * PageExchange or PagePort
 
 # Setup
