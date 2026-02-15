@@ -1,2 +1,2 @@
-{{#set:Is reviewed={{{Reviewed|}}}}}
+{{#set:Is reviewed={{#replace:{{#replace:{{#replace:{{{Reviewed|}}}|]||}}|[||}}|{{!}}||}}}}
 <noinclude>[[Category:Review accounts package]]</noinclude>
